@@ -25,10 +25,10 @@ public class HelloWorldMainLauncherClass {
 	}
 	
 	public static void main (String [] args) {
-		System.out.println("Hello World Programmer Start");
+		System.out.println("\nHello World Programmer Start");
 		HelloWorldMainLauncherClass tizio = new HelloWorldMainLauncherClass(2);
 		tizio.songRefrain();
-		System.out.println("Program Finished!");
+		System.out.println("Program Finished!\n");
 		tizio.falseMethod();
 	}
 	
