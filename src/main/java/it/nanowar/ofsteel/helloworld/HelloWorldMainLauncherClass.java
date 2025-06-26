@@ -33,16 +33,16 @@ public class HelloWorldMainLauncherClass {
 	}
 	
 	/*
-	 * If I may introduce a bug, the JVM will manage it for me
+	 * If I may introduce a bug, the JVM will handle it for me
 	 * ensuring both security and portability
 	 * Then I'll write my code once, and run it everywhere!
 	 * With Static and Strong Typing, will let my programs be type safe!
 	 */
 	
 	public void falseMethod() {
-		boolean metal=true;
+		boolean metal=false;
 		if(metal==false) {
-			String joeyDeCaio=null;
+			String joeyDeCaio="null";
 			joeyDeCaio.length();
 		}
 	}
